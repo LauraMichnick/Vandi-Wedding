@@ -41,7 +41,7 @@
   /* Images */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/flowers.avif");
+    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("flowers.avif");
   
     /* Set a specific height */
     height: 100vh;
@@ -237,5 +237,6 @@
       padding: 20px;
     }
   }
+
 
 
