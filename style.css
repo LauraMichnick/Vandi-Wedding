@@ -44,7 +44,7 @@
     background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/flowers.jpg");
   
     /* Set a specific height */
-    height: 100vh;
+    height: 99vh;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
