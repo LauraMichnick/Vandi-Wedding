@@ -1,0 +1,241 @@
+/* off white #fffbef, rose #f1ccc4, blue #586c84, lighter blue #718da3, green #77897d, lighter green #88a58f*/
+
+.major-mono-display-regular {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: "Major Mono Display", monospace; 
+    background-color: #fffbef;
+    font-size: 100%;
+  }
+
+  h1{
+    font-size: 4em;
+  }
+  h4{
+    text-align: center;
+  }
+  /* header/page title */
+
+  .header {
+    font-size: 4em;
+    text-align: center;
+  }
+  
+    /* Main content */
+ main, html{
+    display: flexbox;
+    height: 100%;
+ }
+  /* Images */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/flowers.avif");
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .rsvp-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/rsvp.jpg");
+  
+    /* Set a specific height */
+    height: 60vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .anfahrt-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/anfahrt.jpg");
+  
+    /* Set a specific height */
+    height: 60vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .info-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/infos.jpg");
+  
+    /* Set a specific height */
+    height: 60vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .kontakt-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/kontakt.jpg");
+  
+    /* Set a specific height */
+    height: 60vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Menu */
+  .menubtn {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f1ccc400;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  .change .bar2 {opacity: 0;}
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+ 
+  .menubtn:hover, .menubtn:focus {
+    background-color: #f1ccc400;
+  }
+  
+  .toggle-menu {
+    position: relative;
+    display: inline-block;
+    left: 1%;
+    top:  1%;
+  }
+  
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f1ccc499;
+    border-radius: 5px;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+  }
+  
+  .menu-content a {
+    color: black;
+    opacity: 100%;
+    background-color: #f1ccc400;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .toggle-menu a:hover {background-color: #f1ccc4;}
+  
+  .show {display: block;}
+  
+ 
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+
+  }
+
+.google-form {
+    text-align: center;
+}
+
+.iframe {
+    display: inline-block;
+}
+
+
+
+.column {
+    display: table-cell;
+    float: left;
+    width: 50%;
+    top: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 75%;
+    padding-left: 20px;
+  }
+ 
+  /* Add a card effect for articles */
+.card {
+    background-color: #f1ccc499;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 850px) {
+    .column, .leftcolumn, .rightcolumn {
+      display: block;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+
+
