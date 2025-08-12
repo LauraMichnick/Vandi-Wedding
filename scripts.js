@@ -26,3 +26,15 @@ function toggleMenu(x) {
 
     }
   }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname.split("/").pop(); // e.g., 'rsvp.html'
+    const menuLinks = document.querySelectorAll("#menu a");
+
+    menuLinks.forEach(link => {
+        if (link.getAttribute("href") === currentPath) {
+            link.classList.add("active");
+        }
+    });
+});

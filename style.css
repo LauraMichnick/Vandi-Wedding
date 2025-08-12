@@ -162,8 +162,15 @@
     text-decoration: none;
     display: block;
   }
-  
-  .toggle-menu a:hover {background-color: #f1ccc4;}
+
+  .menu-content a.active {
+    font-weight: bold;
+    background-color: #f1ccc4;    
+}
+  .toggle-menu a:hover {
+    background-color: #f1ccc4; 
+    font-weight: bold;
+  }
   
   .show {display: block;}
   
