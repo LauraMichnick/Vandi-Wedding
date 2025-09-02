@@ -1,10 +1,15 @@
 /* off white #fffbef, rose #f1ccc4, blue #586c84, lighter blue #718da3, green #77897d, lighter green #88a58f*/
+.mr-de-haviland-regular {
+  font-family: "Mr De Haviland", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
-.major-mono-display-regular {
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-  }
   
 
 * {
@@ -15,13 +20,19 @@
   }
   
   body {
-    font-family: "Major Mono Display", monospace; 
+    font-family: "Handlee", monospace; 
     background-color: #fffbef;
     font-size: 100%;
   }
 
   h1{
-    font-size: 4em;
+    font-family: "Mr De Haviland";
+    font-size: 5em;
+  }
+  h2{
+    font-family: "Mr De Haviland";
+    text-align: center;
+    font-size: 3em;
   }
   h4{
     text-align: center;
@@ -41,10 +52,10 @@
   /* Images */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/flowers.jpg");
+    background-image: linear-gradient(#f1ccc433, #fffbef), url("images/flowers.jpg");
   
     /* Set a specific height */
-    height: 100vh;
+    height: 75vh;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -106,6 +117,11 @@
     position: relative;
   }
   
+    .countdown-timer {
+    font-family: 'Handlee';
+  }
+
+
   /* Menu */
   .menubtn {
     display: inline-block;
@@ -229,6 +245,13 @@
     border-radius: 5px;
 
   }
+.card_transparent {
+  background-color: #f1ccc400;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+}
   
   /* Clear floats after the columns */
   .row:after {
