@@ -23,6 +23,7 @@
     font-family: "Handlee", monospace; 
     background-color: #fffbef;
     font-size: 100%;
+    text-align: left
   }
 
   h1{
@@ -34,8 +35,16 @@
     text-align: center;
     font-size: 3em;
   }
+  h3{
+    font-family: "Mr De Haviland";
+    text-align: center;
+    font-size: 2em; 
+  }
   h4{
     text-align: center;
+  }
+  p{
+    text-align: left;
   }
   /* header/page title */
 
