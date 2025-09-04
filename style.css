@@ -363,7 +363,7 @@
 }
 
 /* The Close Button */
-.close {
+/* .close {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -371,7 +371,32 @@
   font-size: 50px;
   font-weight: bold;
   transition: 0.3s;
+} */
+.close {
+  position: inline-block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
+.close:before,
+.close:after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  width: 30px;
+  height: 5px;
+  background-color: #333333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
 
 .close:hover,
 .close:focus {
