@@ -37,7 +37,13 @@
     <main>
         <div class="row">
             <div class="card_transparent" style="display: flex; justify-content: center;">
-                <img src="images/timeline.png" alt="Grober Tagesablauf" style=width:100% >
+                <picture>
+                <!-- Large screens -->
+                <source media="(min-width: 850px)" srcset="images/timeline.png">
+                <!-- Small screens (default/fallback) -->
+                <img src="images/timeline2.png" alt="Grober Tagesablauf" style="width:100%;">
+                </picture>
+
             </div>
         </div>
         <div class="row">
