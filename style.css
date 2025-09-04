@@ -289,7 +289,7 @@
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 850px) {
-    .column, .leftcolumn, .rightcolumn {
+    .column, .leftcolumn, .rightcolumn, .button {
       display: block;
       width: 100%;
       padding: 20px;
