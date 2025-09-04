@@ -2,14 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanny & Andi</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Mr+De+Haviland&display=swap" rel="stylesheet"></head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanny & Andi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Mr+De+Haviland&display=swap" rel="stylesheet">
     <header>
         <div class="anfahrt-image">
             <div class="toggle-menu">
@@ -45,13 +44,13 @@
 
             <div class="column">
                 <div class="card_transparent">
-                    <p>Sickertshofen 1,<br> 85247 Schwabhausen</p><br> 
+                    <p style="text-align: center; font-weight: bold;">Sickertshofen 1,<br> 85247 Schwabhausen</p><br> 
 
                     <p>Die Anreise ist mit dem Auto am einfachsten. Parkplätze sind vor Ort vorhanden.</p><br>
-                    <p>Die nächste S-Bahn Station ist Schwabhausen (S2 Richtung Altomünster). Von dort aus läuft man ca. 20 Minuten zum Hofgut. Von den beiden 
-                        nähest gelegenen Bushaltestellen "Augsburger Str." und "Münchner Str." (jeweils Busse 704, 705, X730) sind es jeweils eine knappe viertel Stunde zu Fuß.
-                    </p><br>
-                    <p>Ruftaxis können alternativ unter folgender Nummer bestellt werden:</p>
+                    <p>Die nächste S-Bahn Station ist Schwabhausen (S2 Richtung Altomünster). Von dort aus läuft man ca. 20 Minuten zum Hofgut.</p>
+                    <p>Von den beiden nähest gelegenen Bushaltestellen "Augsburger Str." und "Münchner Str." (jeweils Busse 704, 705, X730)
+                         sind es jeweils eine knappe viertel Stunde zu Fuß.
+                    </p>
                 </div>
             </div>
             <div class="column">
@@ -60,17 +59,36 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10616.740279376763!2d11.338625050867435!3d48.29929194018405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7d203b72fafb%3A0x827242c6b84e66c!2sHofgut%20Sickertshofen%20Eventlocation!5e0!3m2!1sde!2sde!4v1754684720277!5m2!1sde!2sde" width=100% height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-    
+            </div>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <img id="taxiJPG" src="images/taxi.jpeg" alt="Telefonnummern für Taxis und Shuttel" style="width:100%;max-width:200px;">
+                <div id="taxiModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="taxiImg">
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card_transparent">
+                    <p>Hier findet ihr weitere Infos und Telefonnummern zu Taxiunternehmen und Shuttelservices</p>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="card"><h4>Übernachtungsmöglichkeiten</h4></div>
-            <div class="card_transparent">
-                <p>Solltet ihr abends keine all zu lange Heimreise mehr antreten wollen, gibt es in Schwabhausen
-                    zwei Hotels, in denen ihr absteigen könnt.
-                </p><br>
-                <p>Hotel A</p><br>
-                <p>Hotel B</p>
+            <div class="rightcolumn">
+                <div class="card_transparent">
+                    <p>Solltet ihr abends keine all zu lange Heimreise mehr antreten wollen, gibt es in der Nähe des Hofguts
+                        einige Hotels, in denen ihr absteigen könnt. 
+                    </p>
+                </div>
+            </div>
+            <div class="leftcolumn">
+                <img id="hotelJPG" src="images/hotel.jpeg" alt="Telefonnummern für Hotels in der Nähe" style="width:100%;max-width:200px;">
+                <div id="hotelModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="hotelImg">
             </div>
         </div>
 

@@ -39,3 +39,46 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// Get the modal
+var modalTaxi = document.getElementById("taxiModal");
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("taxiJPG");
+var modalImg = document.getElementById("taxiImg");
+img.onclick = function(){
+  modalTaxi.style.display = "block";
+  modalImg.src = this.src;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modalTaxi.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modalTaxi) {
+    modalTaxi.style.display = "none";
+  }
+}
+
+// Get the modal
+var modalHotel = document.getElementById("hotelModal");
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("hotelJPG");
+var modalImg = document.getElementById("hotelImg");
+img.onclick = function(){
+  modalHotel.style.display = "block";
+  modalImg.src = this.src;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modalHotel.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modalHotel) {
+    modalHotel.style.display = "none";
+  }
+}
