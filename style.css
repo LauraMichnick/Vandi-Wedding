@@ -137,10 +137,7 @@
     background-size: cover;
     position: relative;
   }
-  
-    .countdown-timer {
-    font-family: "Bodoni Moda SC", serif;
-  }
+ 
 
 
   /* Menu */
@@ -151,6 +148,7 @@
     padding: 5px 10px;
     border-radius: 5px;
     background-color: #f1ccc400;
+    z-index: 99;
   }
   
   .bar1, .bar2, .bar3 {
@@ -159,6 +157,7 @@
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
+    z-index: 99;
   }
   
   .change .bar1 {
@@ -175,7 +174,7 @@
   }
   
   .toggle-menu {
-    position: relative;
+    position: fixed;
     display: inline-block;
     left: 1%;
     top:  1%;
@@ -184,11 +183,11 @@
   .menu-content {
     display: none;
     position: absolute;
-    background-color: #f1ccc499;
+    background-color: #f1ccc4b5;
     border-radius: 5px;
     min-width: 160px;
     overflow: auto;
-    z-index: 1;
+    z-index: 99;
   }
   
   .menu-content a {
@@ -211,7 +210,11 @@
   
   .show {display: block;}
   
- 
+  
+  .countdown-timer {
+  font-family: "Bodoni Moda SC", serif;
+  z-index: 1;
+  }
   
   /* Place text in the middle of the image */
   .hero-text {
@@ -363,15 +366,6 @@
 }
 
 /* The Close Button */
-/* .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #333333;
-  font-size: 50px;
-  font-weight: bold;
-  transition: 0.3s;
-} */
 .close {
   position: inline-block;
   width: 24px;
@@ -396,8 +390,6 @@
 .close:after {
   transform: rotate(-45deg);
 }
-
-
 .close:hover,
 .close:focus {
   color: #333333;
