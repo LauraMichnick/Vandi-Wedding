@@ -14,7 +14,6 @@
   <header>
     <div class="hero-image">
         <div class="toggle-menu">
-
             <button id="menubtn" onclick="toggleMenu(this)" class="menubtn">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
@@ -37,27 +36,57 @@
   <main>
     <div class="row">
         <div class="card">
-            <h2>Wir heiraten und zählen schon die Stunden!</h2>
+            <h3>Wir heiraten am 2. Mai 2026 und zählen schon die Stunden!</h3>
         </div>
-        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a href="https://logwork.com/countdown-timer" 
-            class="countdown-timer" 
-            data-timezone="Europe/Berlin" data-language="de" data-textcolor="#fffbef" data-date="2026-05-02 13:00" 
-            data-background="#f1ccc4" data-digitscolor="#333333" data-unitscolor="#333333"
-            style="pointer-events: none; cursor: default">Noch...</a>
-        
-        <div class="column">
-            <div class="card">
-                <h3>~ Termin ~</h3><br>
-                <h4>2. Mai 2026</h4>
-            </div>
+        <div class="card_transparent">
+            <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+            <a href="https://logwork.com/countdown-timer" 
+                class="countdown-timer" 
+                data-timezone="Europe/Berlin" data-language="de" data-textcolor="#fffbef" data-date="2026-05-02 13:00" 
+                data-background="#f1ccc4" data-digitscolor="#333333" data-unitscolor="#333333"
+                style="pointer-events: none; cursor: default;">Noch...</a>
         </div>
         <div class="column">
-            <div class="card">
-                <h3>~ Ort ~</h3><br>
-                <h4>Hofgut Sickertshofen</h4>
-            </div>
-
+            <button class="button" style="float: right;">
+                <dif class="button-content">
+                    <a href="anfahrt.html">
+                        <h3>~ Ort ~</h3><br>
+                        <h4>Hofgut Sickertshofen</h4>
+                    </a>   
+                </dif>
+            </button>
+        </div>
+        <div class="column">
+            <button class="button" style="float: left;">
+                <dif class="button-content">
+                    <a href="info.html">
+                        <h3>~ Infos ~</h3><br>
+                        <h4>Alles Wichtige zum Ablauf, Dresscode und Geschenken</h4>
+                    </a>
+                </dif>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <button class="button" style="float: right;">
+                <dif class="button-content">
+                    <a href="info.html">
+                        <h3>~ RSVP ~</h3><br>
+                        <h4>Lasst uns wissen, ob ihr mit uns feiert</h4>
+                    </a>
+                </dif>
+            </button>
+        </div>
+        <div class="column">
+            <button class="button" style="float: left;">
+                <dif class="button-content">
+                    <a href="kontakt.html">
+                        <h3>~ Kontakt ~</h3><br>
+                        <h4>Unsere Trauzeugen wissen Bescheid</h4>
+                    </a>
+                </dif>
+            </button>
         </div>
     </div>
 

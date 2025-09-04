@@ -221,8 +221,26 @@
     display: inline-block;
 }
 
-
-
+.button{
+    background-color: #f1ccc499;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
+}
+.button:hover{
+  background-color: #f1ccc4;
+}
+.button-content a{
+    color: black;
+    opacity: 100%;
+    background-color: #f1ccc400;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 .column {
     display: table-cell;
     float: left;
