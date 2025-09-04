@@ -26,6 +26,9 @@ function toggleMenu(x) {
 
     }
   }
+const bar1 = document.querySelector(".bar1");
+const bar2 = document.querySelector(".bar2");
+const bar3 = document.querySelector(".bar3");
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -37,7 +40,30 @@ document.addEventListener("DOMContentLoaded", function () {
             link.classList.add("active");
         }
     });
+    if (currentPath === "kontakt.html"){
+      document.getElementById("menubtn").classList.add("light");
+      window.addEventListener("scroll", () => {
+      if (window.scrollY > 30) { 
+        document.getElementById("menubtn").classList.remove("light");
+        } else {
+          document.getElementById("menubtn").classList.add("light");
+        }
+      });
+    }
+    if (currentPath === "anfahrt.html"){
+      document.getElementById("menubtn").classList.add("light");
+      window.addEventListener("scroll", () => {
+      if (window.scrollY > 30) { 
+        document.getElementById("menubtn").classList.remove("light");
+        } else {
+          document.getElementById("menubtn").classList.add("light");
+        }
+      });
+    }
 });
+
+
+
 
 // open and close modal images
 function initModal(imgId, modalId, modalImgId, closeId) {
