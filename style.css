@@ -87,7 +87,7 @@
 
   .rsvp-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/rsvp.jpg");
+    background-image: linear-gradient(rgba(241, 204, 196, 0.4), #fffbef), url("images/rsvp.jpg");
   
     /* Set a specific height */
     height: 60vh;
@@ -100,7 +100,7 @@
   }
   .anfahrt-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/anfahrt.jpg");
+    background-image: linear-gradient(rgba(241, 204, 196, 0.4), #fffbef), url("images/anfahrt.jpg");
   
     /* Set a specific height */
     height: 60vh;
@@ -113,7 +113,7 @@
   }
   .info-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/infos.jpg");
+    background-image: linear-gradient(rgba(241, 204, 196, 0.4), #fffbef), url("images/infos.jpg");
   
     /* Set a specific height */
     height: 60vh;
@@ -126,7 +126,7 @@
   }
   .kontakt-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(241, 204, 196, 0.2), #fffbef), url("images/kontakt.jpg");
+    background-image: linear-gradient(rgba(241, 204, 196, 0.4), #fffbef), url("images/kontakt.jpg");
   
     /* Set a specific height */
     height: 60vh;
